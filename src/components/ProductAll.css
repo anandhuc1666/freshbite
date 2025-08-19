@@ -1,0 +1,140 @@
+.product {
+    width: 100%;
+    height: 100vh;
+}
+.product-search-items{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    width: 300px;
+    height: 3.2em;
+     background-color: #fff;
+     border-radius: 10px;
+     font-size: 16px;
+     box-sizing: border-box;
+     padding: 5px;
+     border: 1px solid #d4d2d2;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.select{
+    width: 100px;
+    background-color: #fff;
+    height: 3.2em;
+    margin-left: 10px;
+     border-radius: 10px;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.product-banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.product-banner h2 {
+    text-align: center;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+}
+
+.banner-product-icron {
+    width: 79%;
+    height: 150px;
+    padding: 10px;
+    margin-top: 60px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    gap: 10px;
+    border-radius: 200px;
+    transition: 2s;
+    border: 1px solid #111;
+}
+
+.banner-product-icron::-webkit-scrollbar {
+    display: none;
+}
+
+.banner-product-icron img {
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    border-radius: 100px;
+}
+
+.banner-product-icron img:hover {
+    transform: scale(1.1);
+}
+
+.product-items-lists {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.product-item-list {
+    width: 350px;
+    height: 300px;
+    background-color: #eee;
+    border-radius: 20px;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.product-item-list:hover {
+    transform: scale(1.1);
+    
+}
+
+.product-item-img {
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.product-item-name {
+    width: 100%;
+    height: 2.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.product-item-name h4 {
+    font-size: 20px;
+}
+
+.product-item-name h6 {
+    font-size: 15px;
+    padding: 6px 12px;
+    background-color: rgb(38, 126, 62);
+    border: 1px solid rgb(38, 126, 62);
+    border-radius: 10px;
+    color: #fff;
+}
+
+.product-item-details {
+    color: #111;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-item-details p {
+    max-width: 200px;
+}
+
+.product-item-details span {
+    font-size: 28px;
+    color: #444343;
+}

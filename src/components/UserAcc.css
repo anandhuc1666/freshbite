@@ -1,0 +1,118 @@
+.useracc{
+    width: 100%;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.userbox{
+    width: 60%;
+    height: 100vh;
+    border: 2px solid #eee;
+    border-radius: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+        overflow-y: auto;
+}
+.userbox::-webkit-scrollbar{
+    display: none;
+}
+.useraccid{
+    width: 100%;
+    height: 200px;
+    background-color: #eee;
+    border: 1px solid #111;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.useraccid-details{
+    width: 500px;
+    height: 200px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.useraccid-details button{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background-color: #e5e4e4;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.userprodect{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 10px;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.useritems{
+    width: 250px;
+    height: 200px;
+    background-color: #eee;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.product-img{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+}
+.user-order-img{
+    width: 100px;
+    height: 90px;
+    border-radius: 10px;
+}
+.qtys{
+    border-radius: 5px;
+    height: 23px;
+    width: 50px;
+    text-align: center;
+}
+.couts{
+    display: flex;
+    width: 80px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.couts button{
+    background-color: gray;
+    border: #eee;
+    width: 30px;
+    height: 25px;
+    border-radius: 5px;
+    color: #eee;
+}
+.product-details{
+margin-left: 10px;
+}
+.product-details h3{
+    overflow: hidden;
+}
+.total{
+
+    color: rgb(253, 142, 6);
+    margin-top: -60px;
+    margin-left: 150px;
+}
+.total span{
+    color: #111;
+}

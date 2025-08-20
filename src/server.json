@@ -18,7 +18,8 @@
           "img3": " https://b.zmtcdn.com/data/dish_photos/753/6f9551367c9c0af4f6f4bc2223f52753.jpeg?fit=around|130:130&crop=130:130;*,*",
           "area": " ",
           "price": "150 ",
-          "id": "4839"
+          "id": "4839",
+          "quantity": 1
         },
         {
           "img": "https://b.zmtcdn.com/data/pictures/0/19677790/84ac9c190ee52d4e15aaa602372434b6_o2_featured_v2.jpg?output-format=webp",
@@ -31,144 +32,56 @@
           "img3": " https://b.zmtcdn.com/data/pictures/0/19677790/41bf8490d0ddb18f1a22906caefd3cfd.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
           "area": "Restaurants in New Delhi, New Delhi Restaurants, Janpath restaurants, Best Janpath restaurants, Central Delhi restaurants, Quick Bites in Delhi NCR, Quick Bites near me, Quick Bites in Central Delhi, Quick Bites in Janpath, Sweet Shop in Delhi NCR,",
           "price": "240",
-          "id": "360c"
+          "id": "360c",
+          "quantity": 1
         },
         {
-          "img": "https://b.zmtcdn.com/data/dish_photos/709/353d16f0fd551e34dd1cd66c73725709.jpg ",
-          "item": "Delhi Darbar Dhaba ",
-          "rate": "5.0",
+          "img": "https://b.zmtcdn.com/data/dish_photos/000/a8f2dbea2b4d8e7ee8f073866f796000.jpeg ",
+          "item": "burger",
+          "rate": "3.3",
           "cat": "burger",
-          "detail": "North Indian, Chinese, Fast Food, Mughlai ",
-          "img1": " ",
-          "img2": " ",
-          "img3": " ",
+          "detail": "Burger, Rolls, Fast Food ",
+          "img1": "https://b.zmtcdn.com/data/pictures/chains/1/931/ab7dc239625ef34124d8a38b57a22e3a.jpg?fit=around|300:273&crop=300:273;*,* ",
+          "img2": "https://b.zmtcdn.com/data/pictures/chains/1/931/a4540d24373d74f448d537da5b4432fe.jpg?fit=around|300:273&crop=300:273;*,* ",
+          "img3": "https://b.zmtcdn.com/data/pictures/chains/1/931/0d739282b2fc2a822dddc91df3f03358.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A ",
           "area": " ",
-          "price": "350",
-          "id": "204e"
-        },
-        {
-          "img": " https://b.zmtcdn.com/data/pictures/4/2504/dc5c5f63b7878e806938eebeccff0fbe_o2_featured_v2.jpg",
-          "item": "Pind Balluchi ",
-          "rate": "4.0",
-          "cat": "veg",
-          "detail": "North Indian, Mughlai, Kebab, Biryani ",
-          "img1": "https://b.zmtcdn.com/data/dish_photos/73c/b081b8c0226a1bf96572bcae13c9a73c.jpeg?fit=around|130:130&crop=130:130;*,* ",
-          "img2": "https://b.zmtcdn.com/data/dish_photos/14d/287ce6c1b2313e4af7f5666af465e14d.jpeg?fit=around|130:130&crop=130:130;*,* ",
-          "img3": " https://b.zmtcdn.com/data/dish_photos/c1b/fa9cdf904e2e2eea72bb5bfeee815c1b.jpeg?fit=around|130:130&crop=130:130;*,*",
-          "area": "Deep Fried Crisp Amrerican Corn Patty, Flavoured With Herbs And Spices Served Along With Mint Sauce.Barbequed chunks of cottage cheese skewered with vegetables & flavored with classic tandoori spices. ",
-          "price": "500",
-          "id": "56c4"
-        },
-        {
-          "img": " https://b.zmtcdn.com/data/pictures/chains/3/143/ce0341e58cf96f163101b4dff77ed938.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
-          "item": "Domino's Pizza ",
-          "rate": "3.4",
-          "cat": "pizza",
-          "detail": "Cauliflower, Potatoes & Carrots and served",
-          "img1": "https://b.zmtcdn.com/data/pictures/chains/3/143/75b60bdbe048c77f6c9109783096e02d.jpg?fit=around|300:273&crop=300:273;*,* ",
-          "img2": " https://b.zmtcdn.com/data/pictures/chains/3/143/fbc2c4c9e55a3f011c493dda79c399f5.jpg?fit=around|300:273&crop=300:273;*,*",
-          "img3": " ",
-          "area": "Spiciest veg pizza with jalapeno & red paprika toppings and a new spicy peri peri sauce. ",
-          "price": "199",
-          "id": "448c"
-        },
-        {
-          "img": "https://b.zmtcdn.com/data/pictures/chains/8/310078/5f22edaa3391108ad75776b4cbce296e.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,* ",
-          "item": "Burger King ",
-          "rate": "4.0",
-          "cat": "burger ",
-          "detail": "Burger, Fast Food, Beverages ",
-          "img1": "https://b.zmtcdn.com/data/dish_photos/694/3ab0b1a6ec163d73b0862719bc36f694.jpeg?fit=around|130:130&crop=130:130;*,* ",
-          "img2": "https://b.zmtcdn.com/data/dish_photos/289/3775c3f5d5b1df7a814c9aec26d6d289.jpeg?fit=around|130:130&crop=130:130;*,* ",
-          "img3": "https://b.zmtcdn.com/data/dish_photos/93f/d51f53cf3e86bc0a5475aace6f5d893f.jpeg?fit=around|130:130&crop=130:130;*,* ",
-          "area": "New Whopper Deluxe in premium glazed bun (regular size). 7 layers of taste: Crunchy Soft Paneer patty, fresh onion, crispy lettuce, juicy tomatoes (seasonal) tangy gherkins, creamy & smoky sauces. Qty: 225 gms| Kcal: 621 | Carbs: 57 gms| Sugar: 1 gms| Fat: 34 gms| Saturated fat: 14 gms| Protein: 21 gms| ",
-          "price": "320 ",
-          "id": "d4ef"
-        },
-        {
-          "img": "https://b.zmtcdn.com/data/pictures/8/18219558/a3a95bc0843f10a313ea8ed9b18943c8_o2_featured_v2.jpg ",
-          "item": "Bikkgane Biryani ",
-          "rate": "3.9",
-          "cat": "biriyani ",
-          "detail": "Biryani, Hyderabadi, Andhra, North Indian, Mughlai ",
-          "img1": " https://b.zmtcdn.com/data/pictures/chains/3/307893/69f1fa33c357f755f7021b7e35d59380.jpg?fit=around|300:273&crop=300:273;*,*",
-          "img2": "https://b.zmtcdn.com/data/dish_photos/f2d/8829fbba874ca5f2ce2f69072d928f2d.jpeg?fit=around|130:130&crop=130:130;*,* ",
-          "img3": " ",
-          "area": " ",
-          "price": "300 ",
-          "id": "4266"
-        },
-        {
-          "img": " https://b.zmtcdn.com/data/pictures/chains/9/89/d8009ddf2854e6122e875d88619b4d4e_o2_featured_v2.jpg",
-          "item": "Naivedyam ",
-          "rate": "3.0",
-          "cat": "veg ",
-          "detail": "Rice and lentil batter cakes soaked in curds ",
-          "img1": " https://b.zmtcdn.com/data/pictures/chains/9/89/3ec12dbe48c672ba15c2f0defc4e401f.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
-          "img2": " https://b.zmtcdn.com/data/dish_photos/f94/0aa6e6571f2f59caafe6fa7d5d3fdf94.jpeg?fit=around|130:130&crop=130:130;*,*",
-          "img3": " ",
-          "area": "Rice and lentil batter cakes soaked in curds. Seasoned with natural aromatic herbs ",
-          "price": "225",
-          "id": "f080"
+          "price": " 200",
+          "id": "4848",
+          "quantity": 1
         }
       ],
       "fav": [
         {
-          "img": "https://b.zmtcdn.com/data/pictures/chains/8/310078/5f22edaa3391108ad75776b4cbce296e.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,* ",
-          "item": "Burger King ",
-          "rate": "4.0",
-          "cat": "burger ",
-          "detail": "Burger, Fast Food, Beverages ",
-          "img1": "https://b.zmtcdn.com/data/dish_photos/694/3ab0b1a6ec163d73b0862719bc36f694.jpeg?fit=around|130:130&crop=130:130;*,* ",
-          "img2": "https://b.zmtcdn.com/data/dish_photos/289/3775c3f5d5b1df7a814c9aec26d6d289.jpeg?fit=around|130:130&crop=130:130;*,* ",
-          "img3": "https://b.zmtcdn.com/data/dish_photos/93f/d51f53cf3e86bc0a5475aace6f5d893f.jpeg?fit=around|130:130&crop=130:130;*,* ",
-          "area": "New Whopper Deluxe in premium glazed bun (regular size). 7 layers of taste: Crunchy Soft Paneer patty, fresh onion, crispy lettuce, juicy tomatoes (seasonal) tangy gherkins, creamy & smoky sauces. Qty: 225 gms| Kcal: 621 | Carbs: 57 gms| Sugar: 1 gms| Fat: 34 gms| Saturated fat: 14 gms| Protein: 21 gms| ",
-          "price": "320 ",
-          "id": "d4ef"
-        },
-        {
-          "img": "https://b.zmtcdn.com/data/pictures/8/18219558/a3a95bc0843f10a313ea8ed9b18943c8_o2_featured_v2.jpg ",
-          "item": "Bikkgane Biryani ",
-          "rate": "3.9",
-          "cat": "biriyani ",
-          "detail": "Biryani, Hyderabadi, Andhra, North Indian, Mughlai ",
-          "img1": " https://b.zmtcdn.com/data/pictures/chains/3/307893/69f1fa33c357f755f7021b7e35d59380.jpg?fit=around|300:273&crop=300:273;*,*",
-          "img2": "https://b.zmtcdn.com/data/dish_photos/f2d/8829fbba874ca5f2ce2f69072d928f2d.jpeg?fit=around|130:130&crop=130:130;*,* ",
-          "img3": " ",
+          "img": "https://b.zmtcdn.com/data/dish_photos/000/a8f2dbea2b4d8e7ee8f073866f796000.jpeg ",
+          "item": "burger",
+          "rate": "3.3",
+          "cat": "burger",
+          "detail": "Burger, Rolls, Fast Food ",
+          "img1": "https://b.zmtcdn.com/data/pictures/chains/1/931/ab7dc239625ef34124d8a38b57a22e3a.jpg?fit=around|300:273&crop=300:273;*,* ",
+          "img2": "https://b.zmtcdn.com/data/pictures/chains/1/931/a4540d24373d74f448d537da5b4432fe.jpg?fit=around|300:273&crop=300:273;*,* ",
+          "img3": "https://b.zmtcdn.com/data/pictures/chains/1/931/0d739282b2fc2a822dddc91df3f03358.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A ",
           "area": " ",
-          "price": "300 ",
-          "id": "4266"
+          "price": " 200",
+          "id": "4848",
+          "quantity": 1
         },
         {
-          "img": " https://b.zmtcdn.com/data/pictures/chains/9/89/d8009ddf2854e6122e875d88619b4d4e_o2_featured_v2.jpg",
-          "item": "Naivedyam ",
-          "rate": "3.0",
-          "cat": "veg ",
-          "detail": "Rice and lentil batter cakes soaked in curds ",
-          "img1": " https://b.zmtcdn.com/data/pictures/chains/9/89/3ec12dbe48c672ba15c2f0defc4e401f.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
-          "img2": " https://b.zmtcdn.com/data/dish_photos/f94/0aa6e6571f2f59caafe6fa7d5d3fdf94.jpeg?fit=around|130:130&crop=130:130;*,*",
-          "img3": " ",
-          "area": "Rice and lentil batter cakes soaked in curds. Seasoned with natural aromatic herbs ",
-          "price": "225",
-          "id": "f080"
+          "img": "https://b.zmtcdn.com/data/pictures/8/20614928/e1b15e446bb2e309d2982b3a4550d25f_o2_featured_v2.jpg ",
+          "item": " Apni Rasoi",
+          "rate": "2.1",
+          "cat": "veg",
+          "detail": "North Indian, Chinese, Fast Food, Beverages ",
+          "img1": " https://b.zmtcdn.com/data/pictures/8/20614928/c5aac017a05669117c2b737d697e2b42.jpg?fit=around|300:273&crop=300:273;*,*",
+          "img2": "https://b.zmtcdn.com/data/pictures/chains/0/1190/d6257bc4fa894058cb85a08ae4892444.jpg?fit=around|300:273&crop=300:273;*,* ",
+          "img3": " https://b.zmtcdn.com/data/dish_photos/753/6f9551367c9c0af4f6f4bc2223f52753.jpeg?fit=around|130:130&crop=130:130;*,*",
+          "area": " ",
+          "price": "150 ",
+          "id": "4839",
+          "quantity": 1
         }
       ],
       "order": [
         {
-          "img": "https://b.zmtcdn.com/data/pictures/8/20614928/e1b15e446bb2e309d2982b3a4550d25f_o2_featured_v2.jpg ",
-          "item": " Apni Rasoi",
-          "rate": "2.1",
-          "cat": "veg",
-          "detail": "North Indian, Chinese, Fast Food, Beverages ",
-          "img1": " https://b.zmtcdn.com/data/pictures/8/20614928/c5aac017a05669117c2b737d697e2b42.jpg?fit=around|300:273&crop=300:273;*,*",
-          "img2": "https://b.zmtcdn.com/data/pictures/chains/0/1190/d6257bc4fa894058cb85a08ae4892444.jpg?fit=around|300:273&crop=300:273;*,* ",
-          "img3": " https://b.zmtcdn.com/data/dish_photos/753/6f9551367c9c0af4f6f4bc2223f52753.jpeg?fit=around|130:130&crop=130:130;*,*",
-          "area": " ",
-          "price": "150 ",
-          "id": "4839",
-          "quantity": 1
-        },
-        {
           "img": "https://b.zmtcdn.com/data/pictures/0/19677790/84ac9c190ee52d4e15aaa602372434b6_o2_featured_v2.jpg?output-format=webp",
           "item": "Haldiram's",
           "rate": "4.3",
@@ -180,133 +93,7 @@
           "area": "Restaurants in New Delhi, New Delhi Restaurants, Janpath restaurants, Best Janpath restaurants, Central Delhi restaurants, Quick Bites in Delhi NCR, Quick Bites near me, Quick Bites in Central Delhi, Quick Bites in Janpath, Sweet Shop in Delhi NCR,",
           "price": "240",
           "id": "360c",
-          "quantity": 1
-        },
-        {
-          "img": "https://b.zmtcdn.com/data/pictures/0/19677790/84ac9c190ee52d4e15aaa602372434b6_o2_featured_v2.jpg?output-format=webp",
-          "item": "Haldiram's",
-          "rate": "4.3",
-          "cat": "veg",
-          "detail": "North Indian, Mithai, Street Food, South Indian, ",
-          "img1": "https://b.zmtcdn.com/data/pictures/chains/0/550/daf0fba1346124cc18a5cb01a1e106be.jpg?fit=around|300:273&crop=300:273;*,*",
-          "img2": "https://b.zmtcdn.com/data/pictures/chains/0/550/d98d1ce318a45ed95fc418b6bee861a6.jpg?fit=around|300:273&crop=300:273;*,*",
-          "img3": " https://b.zmtcdn.com/data/pictures/0/19677790/41bf8490d0ddb18f1a22906caefd3cfd.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
-          "area": "Restaurants in New Delhi, New Delhi Restaurants, Janpath restaurants, Best Janpath restaurants, Central Delhi restaurants, Quick Bites in Delhi NCR, Quick Bites near me, Quick Bites in Central Delhi, Quick Bites in Janpath, Sweet Shop in Delhi NCR,",
-          "price": "240",
-          "id": "360c",
-          "quantity": 1
-        },
-        {
-          "img": "https://b.zmtcdn.com/data/pictures/0/19677790/84ac9c190ee52d4e15aaa602372434b6_o2_featured_v2.jpg?output-format=webp",
-          "item": "Haldiram's",
-          "rate": "4.3",
-          "cat": "veg",
-          "detail": "North Indian, Mithai, Street Food, South Indian, ",
-          "img1": "https://b.zmtcdn.com/data/pictures/chains/0/550/daf0fba1346124cc18a5cb01a1e106be.jpg?fit=around|300:273&crop=300:273;*,*",
-          "img2": "https://b.zmtcdn.com/data/pictures/chains/0/550/d98d1ce318a45ed95fc418b6bee861a6.jpg?fit=around|300:273&crop=300:273;*,*",
-          "img3": " https://b.zmtcdn.com/data/pictures/0/19677790/41bf8490d0ddb18f1a22906caefd3cfd.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
-          "area": "Restaurants in New Delhi, New Delhi Restaurants, Janpath restaurants, Best Janpath restaurants, Central Delhi restaurants, Quick Bites in Delhi NCR, Quick Bites near me, Quick Bites in Central Delhi, Quick Bites in Janpath, Sweet Shop in Delhi NCR,",
-          "price": "240",
-          "id": "360c",
-          "quantity": 1
-        },
-        {
-          "img": "https://b.zmtcdn.com/data/pictures/0/19677790/84ac9c190ee52d4e15aaa602372434b6_o2_featured_v2.jpg?output-format=webp",
-          "item": "Haldiram's",
-          "rate": "4.3",
-          "cat": "veg",
-          "detail": "North Indian, Mithai, Street Food, South Indian, ",
-          "img1": "https://b.zmtcdn.com/data/pictures/chains/0/550/daf0fba1346124cc18a5cb01a1e106be.jpg?fit=around|300:273&crop=300:273;*,*",
-          "img2": "https://b.zmtcdn.com/data/pictures/chains/0/550/d98d1ce318a45ed95fc418b6bee861a6.jpg?fit=around|300:273&crop=300:273;*,*",
-          "img3": " https://b.zmtcdn.com/data/pictures/0/19677790/41bf8490d0ddb18f1a22906caefd3cfd.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
-          "area": "Restaurants in New Delhi, New Delhi Restaurants, Janpath restaurants, Best Janpath restaurants, Central Delhi restaurants, Quick Bites in Delhi NCR, Quick Bites near me, Quick Bites in Central Delhi, Quick Bites in Janpath, Sweet Shop in Delhi NCR,",
-          "price": "240",
-          "id": "360c",
-          "quantity": 1
-        },
-        {
-          "img": "https://b.zmtcdn.com/data/dish_photos/709/353d16f0fd551e34dd1cd66c73725709.jpg ",
-          "item": "Delhi Darbar Dhaba ",
-          "rate": "5.0",
-          "cat": "burger",
-          "detail": "North Indian, Chinese, Fast Food, Mughlai ",
-          "img1": " ",
-          "img2": " ",
-          "img3": " ",
-          "area": " ",
-          "price": "350",
-          "id": "204e",
-          "quantity": 1
-        },
-        {
-          "img": " https://b.zmtcdn.com/data/pictures/4/2504/dc5c5f63b7878e806938eebeccff0fbe_o2_featured_v2.jpg",
-          "item": "Pind Balluchi ",
-          "rate": "4.0",
-          "cat": "veg",
-          "detail": "North Indian, Mughlai, Kebab, Biryani ",
-          "img1": "https://b.zmtcdn.com/data/dish_photos/73c/b081b8c0226a1bf96572bcae13c9a73c.jpeg?fit=around|130:130&crop=130:130;*,* ",
-          "img2": "https://b.zmtcdn.com/data/dish_photos/14d/287ce6c1b2313e4af7f5666af465e14d.jpeg?fit=around|130:130&crop=130:130;*,* ",
-          "img3": " https://b.zmtcdn.com/data/dish_photos/c1b/fa9cdf904e2e2eea72bb5bfeee815c1b.jpeg?fit=around|130:130&crop=130:130;*,*",
-          "area": "Deep Fried Crisp Amrerican Corn Patty, Flavoured With Herbs And Spices Served Along With Mint Sauce.Barbequed chunks of cottage cheese skewered with vegetables & flavored with classic tandoori spices. ",
-          "price": "500",
-          "id": "56c4",
-          "quantity": 1
-        },
-        {
-          "img": " https://b.zmtcdn.com/data/pictures/chains/3/143/ce0341e58cf96f163101b4dff77ed938.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
-          "item": "Domino's Pizza ",
-          "rate": "3.4",
-          "cat": "pizza",
-          "detail": "Cauliflower, Potatoes & Carrots and served",
-          "img1": "https://b.zmtcdn.com/data/pictures/chains/3/143/75b60bdbe048c77f6c9109783096e02d.jpg?fit=around|300:273&crop=300:273;*,* ",
-          "img2": " https://b.zmtcdn.com/data/pictures/chains/3/143/fbc2c4c9e55a3f011c493dda79c399f5.jpg?fit=around|300:273&crop=300:273;*,*",
-          "img3": " ",
-          "area": "Spiciest veg pizza with jalapeno & red paprika toppings and a new spicy peri peri sauce. ",
-          "price": "199",
-          "id": "448c",
-          "quantity": 1
-        },
-        {
-          "img": "https://b.zmtcdn.com/data/pictures/chains/8/310078/5f22edaa3391108ad75776b4cbce296e.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,* ",
-          "item": "Burger King ",
-          "rate": "4.0",
-          "cat": "burger ",
-          "detail": "Burger, Fast Food, Beverages ",
-          "img1": "https://b.zmtcdn.com/data/dish_photos/694/3ab0b1a6ec163d73b0862719bc36f694.jpeg?fit=around|130:130&crop=130:130;*,* ",
-          "img2": "https://b.zmtcdn.com/data/dish_photos/289/3775c3f5d5b1df7a814c9aec26d6d289.jpeg?fit=around|130:130&crop=130:130;*,* ",
-          "img3": "https://b.zmtcdn.com/data/dish_photos/93f/d51f53cf3e86bc0a5475aace6f5d893f.jpeg?fit=around|130:130&crop=130:130;*,* ",
-          "area": "New Whopper Deluxe in premium glazed bun (regular size). 7 layers of taste: Crunchy Soft Paneer patty, fresh onion, crispy lettuce, juicy tomatoes (seasonal) tangy gherkins, creamy & smoky sauces. Qty: 225 gms| Kcal: 621 | Carbs: 57 gms| Sugar: 1 gms| Fat: 34 gms| Saturated fat: 14 gms| Protein: 21 gms| ",
-          "price": "320 ",
-          "id": "d4ef",
-          "quantity": 1
-        },
-        {
-          "img": "https://b.zmtcdn.com/data/pictures/8/18219558/a3a95bc0843f10a313ea8ed9b18943c8_o2_featured_v2.jpg ",
-          "item": "Bikkgane Biryani ",
-          "rate": "3.9",
-          "cat": "biriyani ",
-          "detail": "Biryani, Hyderabadi, Andhra, North Indian, Mughlai ",
-          "img1": " https://b.zmtcdn.com/data/pictures/chains/3/307893/69f1fa33c357f755f7021b7e35d59380.jpg?fit=around|300:273&crop=300:273;*,*",
-          "img2": "https://b.zmtcdn.com/data/dish_photos/f2d/8829fbba874ca5f2ce2f69072d928f2d.jpeg?fit=around|130:130&crop=130:130;*,* ",
-          "img3": " ",
-          "area": " ",
-          "price": "300 ",
-          "id": "4266",
-          "quantity": 1
-        },
-        {
-          "img": " https://b.zmtcdn.com/data/pictures/chains/9/89/d8009ddf2854e6122e875d88619b4d4e_o2_featured_v2.jpg",
-          "item": "Naivedyam ",
-          "rate": "3.0",
-          "cat": "veg ",
-          "detail": "Rice and lentil batter cakes soaked in curds ",
-          "img1": " https://b.zmtcdn.com/data/pictures/chains/9/89/3ec12dbe48c672ba15c2f0defc4e401f.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
-          "img2": " https://b.zmtcdn.com/data/dish_photos/f94/0aa6e6571f2f59caafe6fa7d5d3fdf94.jpeg?fit=around|130:130&crop=130:130;*,*",
-          "img3": " ",
-          "area": "Rice and lentil batter cakes soaked in curds. Seasoned with natural aromatic herbs ",
-          "price": "225",
-          "id": "f080",
-          "quantity": 1
+          "quantity": 3
         },
         {
           "img": "https://b.zmtcdn.com/data/pictures/8/20614928/e1b15e446bb2e309d2982b3a4550d25f_o2_featured_v2.jpg ",
@@ -320,35 +107,7 @@
           "area": " ",
           "price": "150 ",
           "id": "4839",
-          "quantity": 1
-        },
-        {
-          "img": "https://b.zmtcdn.com/data/pictures/0/19677790/84ac9c190ee52d4e15aaa602372434b6_o2_featured_v2.jpg?output-format=webp",
-          "item": "Haldiram's",
-          "rate": "4.3",
-          "cat": "veg",
-          "detail": "North Indian, Mithai, Street Food, South Indian, ",
-          "img1": "https://b.zmtcdn.com/data/pictures/chains/0/550/daf0fba1346124cc18a5cb01a1e106be.jpg?fit=around|300:273&crop=300:273;*,*",
-          "img2": "https://b.zmtcdn.com/data/pictures/chains/0/550/d98d1ce318a45ed95fc418b6bee861a6.jpg?fit=around|300:273&crop=300:273;*,*",
-          "img3": " https://b.zmtcdn.com/data/pictures/0/19677790/41bf8490d0ddb18f1a22906caefd3cfd.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
-          "area": "Restaurants in New Delhi, New Delhi Restaurants, Janpath restaurants, Best Janpath restaurants, Central Delhi restaurants, Quick Bites in Delhi NCR, Quick Bites near me, Quick Bites in Central Delhi, Quick Bites in Janpath, Sweet Shop in Delhi NCR,",
-          "price": "240",
-          "id": "360c",
-          "quantity": 1
-        },
-        {
-          "img": " https://b.zmtcdn.com/data/pictures/chains/3/143/ce0341e58cf96f163101b4dff77ed938.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
-          "item": "Domino's Pizza ",
-          "rate": "3.4",
-          "cat": "pizza",
-          "detail": "Cauliflower, Potatoes & Carrots and served",
-          "img1": "https://b.zmtcdn.com/data/pictures/chains/3/143/75b60bdbe048c77f6c9109783096e02d.jpg?fit=around|300:273&crop=300:273;*,* ",
-          "img2": " https://b.zmtcdn.com/data/pictures/chains/3/143/fbc2c4c9e55a3f011c493dda79c399f5.jpg?fit=around|300:273&crop=300:273;*,*",
-          "img3": " ",
-          "area": "Spiciest veg pizza with jalapeno & red paprika toppings and a new spicy peri peri sauce. ",
-          "price": "199",
-          "id": "448c",
-          "quantity": 1
+          "quantity": 3
         },
         {
           "img": "https://b.zmtcdn.com/data/pictures/8/20614928/e1b15e446bb2e309d2982b3a4550d25f_o2_featured_v2.jpg ",
@@ -362,7 +121,21 @@
           "area": " ",
           "price": "150 ",
           "id": "4839",
-          "quantity": 1
+          "quantity": 10
+        },
+        {
+          "img": "https://b.zmtcdn.com/data/pictures/8/20614928/e1b15e446bb2e309d2982b3a4550d25f_o2_featured_v2.jpg ",
+          "item": " Apni Rasoi",
+          "rate": "2.1",
+          "cat": "veg",
+          "detail": "North Indian, Chinese, Fast Food, Beverages ",
+          "img1": " https://b.zmtcdn.com/data/pictures/8/20614928/c5aac017a05669117c2b737d697e2b42.jpg?fit=around|300:273&crop=300:273;*,*",
+          "img2": "https://b.zmtcdn.com/data/pictures/chains/0/1190/d6257bc4fa894058cb85a08ae4892444.jpg?fit=around|300:273&crop=300:273;*,* ",
+          "img3": " https://b.zmtcdn.com/data/dish_photos/753/6f9551367c9c0af4f6f4bc2223f52753.jpeg?fit=around|130:130&crop=130:130;*,*",
+          "area": " ",
+          "price": "150 ",
+          "id": "4839",
+          "quantity": 3
         },
         {
           "img": "https://b.zmtcdn.com/data/pictures/0/19677790/84ac9c190ee52d4e15aaa602372434b6_o2_featured_v2.jpg?output-format=webp",
@@ -376,7 +149,7 @@
           "area": "Restaurants in New Delhi, New Delhi Restaurants, Janpath restaurants, Best Janpath restaurants, Central Delhi restaurants, Quick Bites in Delhi NCR, Quick Bites near me, Quick Bites in Central Delhi, Quick Bites in Janpath, Sweet Shop in Delhi NCR,",
           "price": "240",
           "id": "360c",
-          "quantity": 1
+          "quantity": 2
         }
       ]
     },
@@ -399,6 +172,113 @@
       "cart": [],
       "fav": [],
       "order": []
+    },
+    {
+      "id": "9aa2",
+      "name": "admin",
+      "number": "000000000",
+      "email": "test@gmail.com",
+      "password": "123456",
+      "cart": [],
+      "fav": [],
+      "order": []
+    },
+    {
+      "id": "cf6a",
+      "name": "admin",
+      "number": "000000000",
+      "email": "admin@gmail.com",
+      "password": "123",
+      "cart": [
+        {
+          "img": "https://b.zmtcdn.com/data/dish_photos/000/a8f2dbea2b4d8e7ee8f073866f796000.jpeg ",
+          "item": "burger",
+          "rate": "3.3",
+          "cat": "burger",
+          "detail": "Burger, Rolls, Fast Food ",
+          "img1": "https://b.zmtcdn.com/data/pictures/chains/1/931/ab7dc239625ef34124d8a38b57a22e3a.jpg?fit=around|300:273&crop=300:273;*,* ",
+          "img2": "https://b.zmtcdn.com/data/pictures/chains/1/931/a4540d24373d74f448d537da5b4432fe.jpg?fit=around|300:273&crop=300:273;*,* ",
+          "img3": "https://b.zmtcdn.com/data/pictures/chains/1/931/0d739282b2fc2a822dddc91df3f03358.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A ",
+          "area": " ",
+          "price": " 200",
+          "id": "4848",
+          "quantity": 1
+        },
+        {
+          "img": "https://b.zmtcdn.com/data/pictures/0/19677790/84ac9c190ee52d4e15aaa602372434b6_o2_featured_v2.jpg?output-format=webp",
+          "item": "Haldiram's",
+          "rate": "4.3",
+          "cat": "veg",
+          "detail": "North Indian, Mithai, Street Food, South Indian, ",
+          "img1": "https://b.zmtcdn.com/data/pictures/chains/0/550/daf0fba1346124cc18a5cb01a1e106be.jpg?fit=around|300:273&crop=300:273;*,*",
+          "img2": "https://b.zmtcdn.com/data/pictures/chains/0/550/d98d1ce318a45ed95fc418b6bee861a6.jpg?fit=around|300:273&crop=300:273;*,*",
+          "img3": " https://b.zmtcdn.com/data/pictures/0/19677790/41bf8490d0ddb18f1a22906caefd3cfd.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+          "area": "Restaurants in New Delhi, New Delhi Restaurants, Janpath restaurants, Best Janpath restaurants, Central Delhi restaurants, Quick Bites in Delhi NCR, Quick Bites near me, Quick Bites in Central Delhi, Quick Bites in Janpath, Sweet Shop in Delhi NCR,",
+          "price": "240",
+          "id": "360c",
+          "quantity": 1
+        }
+      ],
+      "fav": [
+        {
+          "img": "https://b.zmtcdn.com/data/pictures/0/19677790/84ac9c190ee52d4e15aaa602372434b6_o2_featured_v2.jpg?output-format=webp",
+          "item": "Haldiram's",
+          "rate": "4.3",
+          "cat": "veg",
+          "detail": "North Indian, Mithai, Street Food, South Indian, ",
+          "img1": "https://b.zmtcdn.com/data/pictures/chains/0/550/daf0fba1346124cc18a5cb01a1e106be.jpg?fit=around|300:273&crop=300:273;*,*",
+          "img2": "https://b.zmtcdn.com/data/pictures/chains/0/550/d98d1ce318a45ed95fc418b6bee861a6.jpg?fit=around|300:273&crop=300:273;*,*",
+          "img3": " https://b.zmtcdn.com/data/pictures/0/19677790/41bf8490d0ddb18f1a22906caefd3cfd.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+          "area": "Restaurants in New Delhi, New Delhi Restaurants, Janpath restaurants, Best Janpath restaurants, Central Delhi restaurants, Quick Bites in Delhi NCR, Quick Bites near me, Quick Bites in Central Delhi, Quick Bites in Janpath, Sweet Shop in Delhi NCR,",
+          "price": "240",
+          "id": "360c",
+          "quantity": 1
+        },
+        {
+          "img": "https://b.zmtcdn.com/data/pictures/8/20614928/e1b15e446bb2e309d2982b3a4550d25f_o2_featured_v2.jpg ",
+          "item": " Apni Rasoi",
+          "rate": "2.1",
+          "cat": "veg",
+          "detail": "North Indian, Chinese, Fast Food, Beverages ",
+          "img1": " https://b.zmtcdn.com/data/pictures/8/20614928/c5aac017a05669117c2b737d697e2b42.jpg?fit=around|300:273&crop=300:273;*,*",
+          "img2": "https://b.zmtcdn.com/data/pictures/chains/0/1190/d6257bc4fa894058cb85a08ae4892444.jpg?fit=around|300:273&crop=300:273;*,* ",
+          "img3": " https://b.zmtcdn.com/data/dish_photos/753/6f9551367c9c0af4f6f4bc2223f52753.jpeg?fit=around|130:130&crop=130:130;*,*",
+          "area": " ",
+          "price": "150 ",
+          "id": "4839",
+          "quantity": 1
+        }
+      ],
+      "order": [
+        {
+          "img": "https://b.zmtcdn.com/data/pictures/0/19677790/84ac9c190ee52d4e15aaa602372434b6_o2_featured_v2.jpg?output-format=webp",
+          "item": "Haldiram's",
+          "rate": "4.3",
+          "cat": "veg",
+          "detail": "North Indian, Mithai, Street Food, South Indian, ",
+          "img1": "https://b.zmtcdn.com/data/pictures/chains/0/550/daf0fba1346124cc18a5cb01a1e106be.jpg?fit=around|300:273&crop=300:273;*,*",
+          "img2": "https://b.zmtcdn.com/data/pictures/chains/0/550/d98d1ce318a45ed95fc418b6bee861a6.jpg?fit=around|300:273&crop=300:273;*,*",
+          "img3": " https://b.zmtcdn.com/data/pictures/0/19677790/41bf8490d0ddb18f1a22906caefd3cfd.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+          "area": "Restaurants in New Delhi, New Delhi Restaurants, Janpath restaurants, Best Janpath restaurants, Central Delhi restaurants, Quick Bites in Delhi NCR, Quick Bites near me, Quick Bites in Central Delhi, Quick Bites in Janpath, Sweet Shop in Delhi NCR,",
+          "price": "240",
+          "id": "360c",
+          "quantity": 3
+        },
+        {
+          "img": "https://b.zmtcdn.com/data/dish_photos/000/a8f2dbea2b4d8e7ee8f073866f796000.jpeg ",
+          "item": "burger",
+          "rate": "3.3",
+          "cat": "burger",
+          "detail": "Burger, Rolls, Fast Food ",
+          "img1": "https://b.zmtcdn.com/data/pictures/chains/1/931/ab7dc239625ef34124d8a38b57a22e3a.jpg?fit=around|300:273&crop=300:273;*,* ",
+          "img2": "https://b.zmtcdn.com/data/pictures/chains/1/931/a4540d24373d74f448d537da5b4432fe.jpg?fit=around|300:273&crop=300:273;*,* ",
+          "img3": "https://b.zmtcdn.com/data/pictures/chains/1/931/0d739282b2fc2a822dddc91df3f03358.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A ",
+          "area": " ",
+          "price": " 200",
+          "id": "4848",
+          "quantity": 4
+        }
+      ]
     }
   ],
   "product": [

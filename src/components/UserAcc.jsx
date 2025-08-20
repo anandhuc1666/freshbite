@@ -4,6 +4,7 @@ import axios from 'axios'
 import { Navigate, useNavigate } from 'react-router-dom'
 function UserAcc() {
 const[users,setUser]=useState(null)
+let user = JSON.parse(localStorage.getItem("user"))
 let navigate=useNavigate()
 useEffect(()=>{
        let user = JSON.parse(localStorage.getItem("user"))
@@ -36,20 +37,21 @@ const LogOut =()=>{
           
                 <div className="userprodect">
 
-                    {/* {
-                        user.order.map((o, index) => ( */}
-                            <div className="useritems" >
+                    {
+                        user?.order?.map((o, index) => (
+                            <div className="useritems" key={index}>
                                 <div className="product-img">
-                                    <img src=""alt="" className='user-order-img' />
+                                    <img src={o.img} alt="" className='user-order-img' />
                                 </div>
                                 <div className="product-details">
-                                    <h3>Item: <span style={{ fontSize: 11 }}></span> </h3>
-                                    <h5>price: ₹ </h5>
+                                    <h3>Item: <span style={{ fontSize: 11 }}>{o.item}</span> </h3>
+                                    <h5>price: ₹ {o.price}</h5>
+                                    <h4>Qty:{o.quantity}</h4>
                                 </div>
-                                <h3 className='total'>total:₹ <span>6542</span></h3>
+                                <h3 className='total'>total:₹ <span>{o.quantity*o.price}</span></h3>
                             </div>
-                        {/* ))
-                    } */}
+                        ))
+                    } 
 
 
                 </div>

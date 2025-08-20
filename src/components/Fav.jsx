@@ -8,7 +8,6 @@ function Fav() {
     return <h1>oops...!login now</h1>
   }
 const cart=(p)=>{
-  console.log(p)
   let itemexist = user.cart.find(f=>f.id===p.id)
   if(itemexist){
     return alert("item on there!")
@@ -43,6 +42,7 @@ const cart=(p)=>{
         setUser(updatedUser);
       })
       .catch(err => console.log(err));
+      window.location.reload()
   };
   return (
     <div className='fav'>

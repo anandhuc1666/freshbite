@@ -1,0 +1,43 @@
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  background: #fff;
+}
+
+.user-about {
+  max-width: 800px;
+  background: linear-gradient(135deg, #fff, #eee);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+  border: 1px solid #fff;
+}
+
+.user-about h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #27ae60;
+  text-align: center;
+}
+
+.user-about p {
+  line-height: 1.8;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+/* Subtle entrance animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -23,7 +23,7 @@ function Addash() {
 
     return (
         <>
-            <Admin />
+        <Admin />
             <div className='addash'>
                 <div className="custom-users">
                     <div className="customer-list">

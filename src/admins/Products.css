@@ -1,7 +1,53 @@
 .A-product {
-    background-color: #d06a6a;
-    width: 50%;
-    height: 100vh;
-
+    background-color: #eee;
+    width: 86%;
+    height: auto;
+    margin-left: 13%;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.Allproducts{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #fff;
+    background-color: rgb(240, 235, 230);
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    overflow-y: scroll;
+    justify-content: space-between;
+}
+.Allproducts::-webkit-scrollbar{
+    display: none;
+}
+.Ad-product-lists{
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Ad-product-lists:hover{
+    background-color: rgb(244, 230, 215);
+}
+.Ad-edit{
+    font-size: 25px;
     margin-left: 10%;
+    z-index: 2;
+}
+.Ad-product-edit{
+    display: flex;
+    width: 100px;
+    justify-content: space-evenly;
 }

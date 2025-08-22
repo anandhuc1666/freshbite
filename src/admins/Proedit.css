@@ -1,0 +1,41 @@
+.pro-edit{
+    width: 100%;
+    height: 500px;
+    background-color: #eee;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.pro-edit-list{
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.send1{
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+}
+.pro-edit-price{
+    width: 350px;
+    height: 45px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.send{
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+}
+.pro-btn{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: rgb(87, 87, 251);
+    color: #eee;
+    border-radius: 5px;
+}

@@ -11,6 +11,8 @@ function Register() {
         number: "",
         email: "",
         password: "",
+        role:"user",
+        status:"active",
         cart: [],
         fav: [],
         order: []

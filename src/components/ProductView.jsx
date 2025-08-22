@@ -1,37 +1,47 @@
 import React, { useEffect, useState } from 'react'
 import './ProductView.css'
-import { useParams } from 'react-router-dom'
+import { Navigate, useParams } from 'react-router-dom'
 import axios from 'axios'
+import { useNavigate } from 'react-router-dom'
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function ProductView() {
+    const navigate = useNavigate()
     const { ProductView } = useParams()
     const [item, setItem] = useState()
-    const[user,setUser]=useState(JSON.parse(localStorage.getItem("user")))
+    const [user, setUser] = useState(JSON.parse(localStorage.getItem("user")))
     useEffect(() => {
         axios.get(`http://localhost:5005/productAll/${ProductView}`)
             .then(ress => setItem(ress.data))
             .catch(err => console.log(err))
     }, [])
-    const cart =(item)=>{
-  let checkitem=user.cart.find((c)=>c.id === item.id)
-  console.log(cart)
-    if(checkitem){
-        return alert("item on the cart! oops")
+    const cart = (item) => {
+        let checkitem = user.cart.find((c) => c.id === item.id)
+        console.log(cart)
+        if (checkitem) {
+          alert('item on the cart')
+        }
+        let carts = {
+            ...user,
+            cart: [
+                ...user.cart,
+                { ...item, quantity: 1 }
+            ]
+        }
+        axios.put(`http://localhost:5005/users/${user.id}`, carts)
+            .then(ress => {
+                toast.success("🛒  Item add successfully!", {
+                    position: "top-right",
+                    autoClose: 2000,
+                });
+                localStorage.setItem("user", JSON.stringify(carts))
+                setUser(carts)
+            })
+            .catch(err => console.log(err))
     }
-    let carts={
-        ...user,
-        cart:[
-            ...user.cart,
-           {... item,quantity:1}
-        ]
-    }
-    axios.put(`http://localhost:5005/users/${user.id}`,carts)
-    .then(ress=>{
-        alert("item add on there")
-        localStorage.setItem("user",JSON.stringify(carts))
-        setUser(carts)
-    })
-    .catch(err=>console.log(err))
+    const back =()=>{
+        navigate('/product')
     }
     return (
         <div className='productview'>
@@ -48,8 +58,8 @@ function ProductView() {
                     <p>{item?.area}</p>
                 </div>
                 <div className="product-imgs-btns">
-                    <button className='buy' onClick={()=>cart(item)}>Cart</button>
-                    <button className='icancel'>Cancel</button>
+                    <button className='buy' onClick={() => cart(item)}>Cart</button>
+                    <button className='icancel' onClick={back}>Cancel</button>
                 </div>
             </div>
             <div className="product-details">
@@ -69,6 +79,7 @@ function ProductView() {
                 </div>
             </div>
             <div className="allproduct-lists"></div>
+            <ToastContainer />
         </div>
     )
 }

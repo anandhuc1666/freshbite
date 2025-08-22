@@ -79,11 +79,10 @@ const fav =(p)=>{
         </select>
       </div>
       <div className="product-items-lists">
-        {/* map on inside of the div */}
         {
           filteredItem.map((p, k) => (
             <div className="product-item-list" key={k}>
-              <MdFavorite style={{position:'absolute',marginLeft:320,fontSize: '1.5em',color:'green',marginTop:5}}onClick={()=>fav(p)} />
+              <MdFavorite style={{position:'absolute',marginLeft:320,fontSize: '1.5em',color:'red',marginTop:5}}onClick={()=>fav(p)} />
              <Link to={`/Product/${p.id}`}><img src={p.img} alt="" className='product-item-img' /></Link>
               <div className="product-item-name">
                 <h4>{p.item}</h4>

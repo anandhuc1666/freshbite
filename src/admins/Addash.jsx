@@ -7,7 +7,6 @@ import axios from 'axios'
 function Addash() {
     const [user, setUser] = useState([])
     const [count, setCount] = useState([])
-    const [status, setStatus] = useState([])
     useEffect(() => {
         axios.get(`http://localhost:5005/users`)
             .then(ress => {
@@ -33,7 +32,7 @@ function Addash() {
                         </div>
                     </div>
                     <div className="customer-list">
-                           <h2>Blocked User's</h2>
+                           <h2>Active User's</h2>
                            <div className="count-user">
                             <h4 style={{color:'green'}}>No.{active}</h4>
                         </div>

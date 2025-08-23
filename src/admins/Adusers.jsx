@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './Adusers.css'
 import axios from 'axios'
 import Admin from './Admin'
+import { Link } from 'react-router-dom'
 
 function Adusers() {
     const [users, setUsers] = useState([])
@@ -35,7 +36,7 @@ function Adusers() {
                     users.map((us, index) => (
                         <div className="adusers-list" key={index}>
                             <div className="user-1">
-                                <h2>{us.name}</h2><br />
+                            <Link to={`/Admin/Adorder/UserOrder/${us.id}`} style={{textDecoration:'none'}}><h2>{us.name}</h2><br /></Link>   
                                 <ul>
                                     <li>{us.email}</li><br />
                                     <li>{us.number}</li><br />

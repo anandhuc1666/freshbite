@@ -20,6 +20,8 @@ import Adorder from './admins/Adorder.jsx'
 import Adusers from './admins/Adusers.jsx'
 import Oops from './components/Oops.jsx'
 import Addash from './admins/Addash.jsx'
+import Update from './admins/Update.jsx'
+import UserOrder from './admins/UserOrder.jsx'
 
 function App() {
   const [nav, setNav] = useState(true)
@@ -51,17 +53,19 @@ function App() {
       {nav && <Nav />}
       {admin && <Admin />}
       <Routes>
-        <Route path='/' element={user?.role === 'user' ? <Home /> : <Oops />} />
-        <Route path='/Product' element={user?.role === 'user' ? <ProductAll /> : <Oops />} />
+        <Route path='/' element={ <Home /> } />
+        <Route path='/Product' element={<ProductAll />} />
         <Route path='/Fav' element={user?.role === 'user' ? <Fav /> : <Oops />} />
         <Route path='/Cart' element={user?.role === 'user' ? <Cart /> : <Oops />} />
-        <Route path='/Register' element={user?.role === 'user' ? <Register /> : <Oops />} />
+        <Route path='/Register' element={<Register />} />
         <Route path='/Login' element={<Login />} />
         <Route path='/UserAcc' element={user?.role === 'user' ? <UserAcc /> : <Oops />} />
         <Route path='/Product/:ProductView' element={user?.role === 'user' ? <ProductView /> : <Oops />} />
         <Route path='/Buy' element={user?.role === 'user' ? <Buy /> : <Oops />} />
-        <Route path='/About' element={user?.role === 'user' ? <About /> : <Oops />} />
+        <Route path='/About' element={ <About /> } />
         <Route path='/Admin' element={user?.role === 'admin' ? <Admin /> : <Oops />} />
+        <Route path='/Admin/Products/Update/:prid' element={<Update/>}/>
+        <Route path='/Admin/Adorder/UserOrder/:prod' element={<UserOrder/>}/>
         <Route path='/Admin/Products' element={user?.role === 'admin' ? <Products /> : <Oops />} />
         <Route path='/Admin/Products/Proedit' element={user?.role === 'admin' ? <Proedit /> : <Oops />} />
         <Route path='/Admin/Adorder' element={user?.role === 'admin' ? <Adorder /> : <Oops />} />

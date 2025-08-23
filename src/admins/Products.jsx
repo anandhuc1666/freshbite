@@ -6,10 +6,10 @@ import Proedit from './Proedit';
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Admin from './Admin';
+import { Link } from 'react-router-dom';
 
 function Products() {
   const [select, setSelect] = useState([])
-  const [editProduct, setEditProduct] = useState(null) // store product to edit
 
   useEffect(() => {
     axios.get(`http://localhost:5005/productAll`)
@@ -17,11 +17,10 @@ function Products() {
       .catch(err => console.log(err))
   }, [])
 
-  // Delete product
   const remove = (id) => {
     axios.delete(`http://localhost:5005/productAll/${id}`)
       .then(() => {
-        toast.success("🗑️ Item removed successfully!", {
+        toast.error("🗑  Item removed successfully!", {
           position: "top-right",
           autoClose: 2000,
         });
@@ -33,26 +32,6 @@ function Products() {
           autoClose: 2000,
         });
         console.log(err)
-      })
-  }
-
-  // Update product after editing
-  const updateProduct = (updatedProduct) => {
-    axios.put(`http://localhost:5005/productAll/${updatedProduct.id}`, updatedProduct)
-      .then(() => {
-        setSelect(prev => prev.map(p => p.id === updatedProduct.id ? updatedProduct : p))
-        setEditProduct(null) // close modal/form
-        toast.success("✏️ Product updated successfully!", {
-          position: "top-right",
-          autoClose: 2000,
-        });
-      })
-      .catch(err => {
-        toast.error("❌ Failed to update product", {
-          position: "top-right",
-          autoClose: 2000,
-        });
-        console.log(err);
       })
   }
 
@@ -69,9 +48,11 @@ function Products() {
                   <img src={i.img} alt="" style={{ width: 100, height: 100 }} />
                 </div>
                 <h4>{i.item}</h4>
+                <p>{i.detail}</p>
                 <p>₹ {i.price}</p>
                 <div className="Ad-product-edit">
-                  <MdModeEdit className='Ad-edit' onClick={() => setEditProduct(i)} />
+                  <Link to={`/Admin/Products/Update/${i.id}`}><MdModeEdit className='Ad-edit' onClick={() => setEditProduct(i)} /></Link>
+                  
                   <MdDelete className='Ad-edit' onClick={() => remove(i.id)} />
                 </div>
               </div>
@@ -79,14 +60,7 @@ function Products() {
           }
         </div>
 
-        {/* Show Proedit only if editProduct is selected */}
-        {editProduct && (
-          <Proedit 
-            product={editProduct} 
-            onSave={updateProduct} 
-            onCancel={() => setEditProduct(null)} 
-          />
-        )}
+          <Proedit />
 
         <ToastContainer />
       </div>

@@ -3,6 +3,8 @@ import './ProductAll.css'
 import axios from 'axios'
 import { MdAccountCircle, MdFavorite } from "react-icons/md";
 import { Link } from 'react-router-dom';
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function ProductAll() {
   const [icorn, setIcron] = useState([])
@@ -19,7 +21,7 @@ function ProductAll() {
     axios.get("http://localhost:5005/productAll")
       .then(p => setProduct(p.data))
       .catch(err => console.log(err))
-  })
+  },[])
   const filteredItem = useMemo(() => {
     if (!product) return [];
 
@@ -37,7 +39,10 @@ function ProductAll() {
 const fav =(p)=>{
   let itemexist = user.fav.find(f=>f.id===p.id)
   if(itemexist){
-    return alert("item on there")
+    return   toast.error("😍 item already on there!", {
+                position: "top-right",
+                autoClose: 800,
+            });
   }
   let fave ={
     ...user,
@@ -49,12 +54,18 @@ const fav =(p)=>{
   }
   axios.put(`http://localhost:5005/users/${user.id}`,fave)
   .then(ress=>{
-    alert('add to server fav')
+    
     localStorage.setItem("user",JSON.stringify(fave))
     setUser(fave)
+     toast.success("🤩 Item add successfully!", {
+                position: "top-right",
+                autoClose: 2000,
+            });
   })
   .catch(err=>console.log(err))
-  window.location.reload()
+ setTimeout(()=>{
+   window.location.reload()
+ },2000)
 }
 
   return (
@@ -98,6 +109,7 @@ const fav =(p)=>{
 
 
       </div>
+      <ToastContainer />
     </div>
   )
 }

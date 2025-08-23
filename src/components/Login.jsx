@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import './Login.css'
 import { Link, useNavigate } from 'react-router-dom'
 import axios from 'axios'
-// import { toast, ToastContainer } from "react-toastify";
-// import "react-toastify/dist/ReactToastify.css";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Login() {
     const navigate = useNavigate()
@@ -21,14 +21,21 @@ function Login() {
                     const user = response.data[0];
                     localStorage.setItem("user", JSON.stringify(user));
                     if (user.role === "admin") {
+                        
                         navigate('/Admin')
+                       
+                       
                     } else if(user.status === "active"){
                        navigate('/')
-                    }
+
+                    }else if(user.role !=="active"){
+                      toast.error(" ❕ Your account is blocked contact admin!", {
+                                position: "top-left",
+                                autoClose: 2000,
+                   });
                 }
-                else {
-                    alert("Invalid email or password");
                 }
+             
             })
             .catch(err => console.log(err))
     }
@@ -53,6 +60,7 @@ function Login() {
                 </div>
             </div>
             {/* <ToastContainer /> */}
+            <ToastContainer />
         </div>
     )
 }

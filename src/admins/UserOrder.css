@@ -1,0 +1,69 @@
+.userorder{
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-order-list-details{
+    width: 700px;
+    height: 550px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.user-id-list{
+    width: 100%;
+    height: 180px;
+    border-radius: 10px 10px 0 0;
+    background-color: #eee;
+    text-align: center;
+}
+.user-online{
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.user-id-order{
+    width: 100%;
+    height: 320px;
+    background-color: #9b9a9a;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 0 0 10px 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.order-user{
+    width: 100%;
+    height: 100px;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    text-align: center;
+    margin-top: 1px;
+    align-items: center;
+}
+.user-name{
+    color: #cbcbcb;
+}
+.pin{
+    position: absolute;
+    margin-left: 600px;
+    font-size: 40px;
+    color: rgb(161, 11, 11);
+}
+.pic-cover{
+    position: absolute;
+margin-left: -900px;
+
+    width: 400px;
+}

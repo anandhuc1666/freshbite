@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import './Proedit.css'
 import axios from 'axios'
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 
 function Proedit() {
@@ -22,7 +24,10 @@ function Proedit() {
     axios.post("http://localhost:5005/productAll", item) 
       .then(res => {
         console.log("Product added:", res.data)
-        alert("add new item")
+          toast.error(" Item removed successfully!", {
+                  position: "top-right",
+                  autoClose: 2000,
+                });
         setItem({ img: "", item: "", rate: "", cat: "", detail: "", price: "" }) 
         window.location.reload()
       })
@@ -43,6 +48,7 @@ function Proedit() {
         <input type="text" placeholder='Add new item : Categories of Foods' value={item.cat} name="cat" className='pro-edit-price' onChange={handle} />
       </div>
       <button className='pro-btn' onClick={submit}>Upload</button>
+      <ToastContainer />
     </div>
   )
 }

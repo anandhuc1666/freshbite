@@ -14,6 +14,7 @@ useEffect(()=>{
         setUser(user)
        }
 
+       
 },[navigate])
 const LogOut =()=>{
     localStorage.removeItem("user")
